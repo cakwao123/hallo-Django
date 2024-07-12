@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homepage</title>
+   {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+</head>
+<body>
+<h1>HALLO APPLICATION</h1>
+<a href="{% url 'form' %}" class="btn btn-primary">form</a>
+<a href="{% url 'images' %}" class="btn btn-outline-warning">gallary</a>
+<a href="{% url 'info' %}">Information</a>
+
+
+<p id="paragraph1"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dignissimos dolore dolorem, ducimus ea exercitationem facilis fugit id ipsum maiores, natus nesciunt, porro praesentium quam rem suscipit tempore ullam voluptatem?</span><span>Amet, aspernatur autem dolorum ducimus eius facere fuga ipsa ipsam laboriosam maxime obcaecati quam qui soluta. A aspernatur blanditiis eos est explicabo, fugit, harum molestias omnis porro quos reprehenderit, voluptates.</span><span>Aliquam aut consequuntur corporis dolore doloremque id ipsam ipsum magnam magni maiores maxime, minima nihil nisi nobis nulla numquam, obcaecati perspiciatis quaerat quidem reprehenderit sed totam ullam ut vel, voluptate!</span></p>
+<div class="main">
+    <img src="{% static 'assets/resources/img_1.png' %}" alt="">
+    
+</div>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut dicta distinctio ea eos ex, facilis harum impedit labore maiores maxime minima nesciunt nostrum odio placeat quam rem sit soluta.</span><span>Ea iure officiis optio. Culpa cupiditate error et excepturi harum in suscipit tempora temporibus voluptas! Accusantium autem, laudantium quisquam recusandae sapiente similique vero vitae voluptatum. Delectus possimus praesentium quaerat voluptatum.</span><span>Culpa ea, optio praesentium quis quisquam sapiente temporibus tenetur? A eius enim explicabo id magnam numquam? Adipisci assumenda consequatur eveniet ex expedita id illo itaque, maxime officia quisquam rem velit.</span></p>
+<div class="=home">
+<img src="{% static 'assets/resources/img_1.png' %}" alt="">
+<img src="{% static 'assets/resources/img.png' %}" alt="">
+<img src="{% static 'assets/resources/img_3.png' %}" alt="">
+<img src="{% static 'assets/resources/img_2.png' %}" alt="">
+
+</div>
+
+</body>
+</html>

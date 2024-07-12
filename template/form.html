@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Client Section</title>
+     {% load static %}
+      <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+</head>
+<body>
+<form action="" class="mt-4">
+    <p class="text-center">Powering world-class companies</p>
+    <div class="row mb-3">
+        <div class="col">
+            <label for="fname">Firstname*</label>
+            <input type="text" id="fname"placeholder="enter your firstname"required="required">
+        </div>
+           <div class="col">
+            <label for="lname">Lastname*</label>
+            <input type="text" id="fname"placeholder="enter your lastname"required="required">
+        </div>
+    </div>
+<div class="row mb-3">
+         <div class="col">
+            <label for="email">Business Email*</label>
+            <input type="email" id="email"class="form-control">
+        </div>
+       <div class="col">
+            <label for="pnumber">Phone number*</label>
+            <input type="number" id="pnumber"class="form-control">
+        </div>
+</div>
+<div class="mb-3">
+    <label for="job">Job title*</label>
+    <input type="text"id="job"class="form-control">
+</div>
+<div class="mb-3">
+      <label for="message"class="form-label">what would you be using flinks for?*</label>
+    <input type="text"id="message"class="form-control">
+</div>
+    <div><button class="btn btn-primary float-end">REQUEST A DEMO</button></div>
+</form>
+</body>
+</html>

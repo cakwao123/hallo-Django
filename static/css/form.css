@@ -1,0 +1,11 @@
+form{
+    background-color: #0dcaf0;
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+}
+body{
+    background-image: url("../assets/resources/img_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
